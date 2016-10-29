@@ -1,1 +1,3 @@
-print 'hello world'
+name = raw_input('Hello, what is your name?\n')
+
+print 'Hello {}'.format(name)
